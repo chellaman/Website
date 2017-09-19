@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding 0;
+}
+
+body{
+    color: black;
+    font-family: monospace;
+    font-size: 100%;
+    margin = 0 center; 
+    width: 900px;
+}
+
+header{
+    text-align: center;
+    background-color: white;
+}
+
+nav{
+    text-align: center;
+    background-color: 	white;
+    margin = 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul{
+    
+    
+}
+
+li{
+    text-align: center;
+    list-style-type: none;
+}
+/*
+LINK PROCESS MUST BE IN THIS ORDER!
+*/
+.nav-links:link{
+    color:black;
+    text-decoration: none;
+}
+
+.nav-links:hover{
+    color:darkgrey;
+    text-decoration: none;
+}
+
+.nav-links:visited{
+    color: darkred;
+    text-decoration: line-through;
+}
+
+article{
+    text-align: center;
+}
+
+section{}
+
+footer{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color:black;
+    background-color: oldlace;
+    font-style: normal;
+    font-size: 3.5em;
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+
+h2{
+    text-align: center;
+    color:black;
+    background-color: oldlace;
+    font-style: normal;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    padding-top: 20px;}
+
+h3{
+    background-color: #FFEFD5;
+    font-style: normal;
+    font-size: 1.15em;
+    padding-bottom: 10px;
+    padding-top: 20px;}
+}
+
+a{
+    color:white;
+}
+
+p{
+    color:black;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
