@@ -4,36 +4,53 @@
 }
 
 body{
-    color: black;
-    font-family: monospace;
-    font-size: 100%;
-    margin = 0 center; 
-    width: 900px;
+background-color:black;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 100%; 
+    margin: 0 auto;
+    width:900;
+}
+
+
+
+.photos {
+    margin: 0 auto;
+    display: grid;
+    padding: 10px;
+     padding-bottom: 150px;
+}
+
+
+main{
+    width: 600px;
+    float: right;
+    min-height: 50px;
+    height: 900px;
 }
 
 header{
-    text-align: center;
     background-color: white;
 }
 
 nav{
     text-align: center;
-    background-color: 	white;
-    margin = 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    border-color: black;
+ border: 1px;
+    min-height: 200px;
+    float: top;
+    min-height: 5px;
+    padding-right: 30px;
+    min-width: 500;
 }
 
 ul{
-    
-    
 }
 
 li{
+    display: inline-block;
     text-align: center;
     list-style-type: none;
+    padding: 5px;
 }
 /*
 LINK PROCESS MUST BE IN THIS ORDER!
@@ -44,12 +61,13 @@ LINK PROCESS MUST BE IN THIS ORDER!
 }
 
 .nav-links:hover{
-    color:darkgrey;
+    padding:10px;
+    background-color:white;
     text-decoration: none;
 }
 
 .nav-links:visited{
-    color: darkred;
+    color: black;
     text-decoration: line-through;
 }
 
@@ -57,26 +75,35 @@ article{
     text-align: center;
 }
 
-section{}
+section{
+    
+}
 
 footer{
+    color:white;
     text-align: center;
+    padding: 10px;
+    background-color:black;
+    clear: both;
 }
 
 h1{
+     background-image: url("../img/line1.jpg");
+    background-size: 100%, 100%;
     text-align: center;
     color:black;
-    background-color: oldlace;
     font-style: normal;
     font-size: 3.5em;
     padding-bottom: 30px;
     padding-top: 25px;
+    min-height: 50px;
 }
 
 h2{
+    
     text-align: center;
     color:black;
-    background-color: oldlace;
+    background-color: black;
     font-style: normal;
     font-size: 1.5em;
     padding-bottom: 15px;
@@ -95,10 +122,13 @@ a{
 }
 
 p{
-    color:black;
+    color:white;
+    font-size: 15px;
 }
 
 img{
-    display: block;
-    margin: auto;
+    padding-bottom: 200px;
+   margin: 0 auto;
+    display: grid;
+    padding: 100px;
 }
